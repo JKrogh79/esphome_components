@@ -81,7 +81,8 @@ climate::ClimateTraits Wavinahc9000v2Climate::traits() {
   });
 
   traits.set_supports_action(true);
-
+  traits.set_supports_target_temperature(true)
+  traits.set_supports_action(true);
   traits.set_supports_current_temperature(true);
   traits.set_visual_temperature_step(0.1);
   traits.set_visual_min_temperature(6);
