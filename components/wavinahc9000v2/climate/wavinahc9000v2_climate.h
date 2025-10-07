@@ -55,6 +55,7 @@ protected:
   binary_sensor::BinarySensor *hvac_action_{ nullptr };
 
 private:
+  void publish_all();
 };
 } // namespace wavinahc9000v2
 } // namespace esphome
