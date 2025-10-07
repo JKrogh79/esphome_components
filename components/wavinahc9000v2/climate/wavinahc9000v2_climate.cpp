@@ -84,6 +84,12 @@ climate::ClimateTraits Wavinahc9000v2Climate::traits() {
   traits.set_supports_target_temperature(true)
   traits.set_supports_action(true);
   traits.set_supports_current_temperature(true);
+  traits.set_supports_preset(true);
+  
+  traits.set_supports_heat_mode(true);
+  traits.set_supports_auto_mode(true);
+  traits.set_supports_off_mode(true);
+  
   traits.set_visual_temperature_step(0.1);
   traits.set_visual_min_temperature(6);
   traits.set_visual_max_temperature(40);
